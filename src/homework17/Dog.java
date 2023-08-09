@@ -26,7 +26,7 @@ public class Dog {
         System.out.println(name + ": я прыгаю на высоту " + currJumpHeight + " см!");
     }
     public void jump(int height) {
-        System.out.println(name + ": я прыгаю на высоту " + height + " см!");
+        System.out.println(name + ": я теперь прыгаю на высоту " + height + " см!");
     }
 
     public void training() {
