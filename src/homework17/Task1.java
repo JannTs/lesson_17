@@ -20,7 +20,7 @@ public class Task1 {
         dog1.training(); // Тренировка, но максимальная высота уже достигнута
            dog1.jump();  // Прыжок на новую высоту (60 см)
            dog1.training(); // Тренировка, но максимальная высота уже достигнута
-           System.out.println("++++++++++++++++++");
+           System.out.println("++++++++++++++++++ Barriers ");
 
 
            int[] barriers = {60, 70, 70, 80, 90, 50, 90, 100, 110};
@@ -29,7 +29,8 @@ public class Task1 {
                 successBarrierCounter++;
             }
         }
-        System.out.println("Удачно преодолено " + successBarrierCounter + " барьеров.");
+       System.out.println("++++++++++++++++++ Success jump through barrier counter");
+       System.out.println("Удачно преодолено " + successBarrierCounter + " барьеров.");
     }
 }
 
