@@ -38,7 +38,7 @@ public class Dog {
         }
     }
 
-    public boolean getBarrier(int barrierHeight){ // 100, 200, 150
+    public boolean getBarrier(int barrierHeight){ // {60, 70, 70, 80, 90, 50, 90, 100, 110};
         if (barrierHeight <= maxJumpHeight && currJumpHeight < barrierHeight) {
             while (currJumpHeight < barrierHeight){
                 training();
