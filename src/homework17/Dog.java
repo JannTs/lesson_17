@@ -1,5 +1,11 @@
 package homework17;
-
+/**
+ * Task 1 Повторить код класса Dog, написанного на уроке.
+ * Создать массив из 10 препятствий. Попросить объект класса собака
+ * перепрыгнуть все препятствия в массиве.
+ *
+ * Опционально Посчитать сколько препятствий из массива собака смогла преодолеть.
+ */
 public class Dog {
     String name;
     int initJumpHeight;
@@ -47,9 +53,5 @@ public class Dog {
             System.out.println( name +": Я не могу перепрыгнуть барьер высотой: " + barrierHeight);
             return false;
         }
-
-       // System.out.println("End get barrier. Текущий прыжок " + currJumpHeight);
     }
-
-
 }
