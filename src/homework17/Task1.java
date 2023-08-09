@@ -18,15 +18,15 @@ public class Task1 {
         dog1.training(); // Тренировка, высота прыжка увеличивается до 60 см
         dog1.jump();  // Прыжок на новую высоту (60 см)
         dog1.training(); // Тренировка, но максимальная высота уже достигнута
-           dog1.jump();  // Прыжок на новую высоту (60 см)
-           dog1.training(); // Тренировка, но максимальная высота уже достигнута
+        dog1.jump();  // Прыжок на новую высоту (70 см)
+        dog1.training(); // Тренировка, но максимальная высота уже достигнута
 
 
-           System.out.println("++++++++++++++++++ Now barriers ");
+       System.out.println("++++++++++++++++++ Now barriers ");
 
 
-           int[] barriers = {60, 70, 70, 80, 90, 50, 90, 100, 110};
-        for (int barrier : barriers) {
+       int[] barriers = {60, 70, 70, 80, 90, 50, 90, 100, 110};
+       for (int barrier : barriers) {
             if (dog1.getBarrier(barrier)) {
                 successBarrierCounter++;
             }
