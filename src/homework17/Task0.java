@@ -12,9 +12,11 @@ public class Task0 {
             phone2.receiveCall("Evgenii", "243-456-767");
             System.out.println("Телефон третий: ");
             phone3.receiveCall("Ivan");
-        }
 
-
-
+            System.out.println("Номер первого телефона: " + phone1.getNumber());
+            System.out.println("Номер второго телефона: " + phone2.getNumber());
+            System.out.println("Номер третьего телефона: " + phone3.getNumber());
+            }
 
 }
+

@@ -19,21 +19,24 @@ public class Phone {
     String number;
     String model;
     double weight;
-    public Phone(String number, String model, double weight) {
+    Phone(String number, String model, double weight) {
         this.number = number;
         this.model = model;
         this.weight = weight;
     }
-    public Phone(String number, String model) {
-        this(number, model, 0.0);
-    }
-    public Phone() {
+    Phone() {
         this("", "");
+    }
+    Phone(String number, String model) {
+        this(number, model, 0.0); // Вызвать из конструктора с тремя параметрами конструктор с двумя (?)
     }
     void receiveCall(String callerName) {
         System.out.println("Caller " + callerName);
     }
     void receiveCall(String callerName, String callerID) {
         System.out.println("Call " + callerName + " from number " + callerID);
+    }
+    String getNumber() {
+        return number;
     }
 }
