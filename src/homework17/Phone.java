@@ -14,7 +14,6 @@ package homework17;
  * и номер телефона звонящего.
  * Вызвать этот метод.
  */
-
 public class Phone {
     String number;
     String model;
